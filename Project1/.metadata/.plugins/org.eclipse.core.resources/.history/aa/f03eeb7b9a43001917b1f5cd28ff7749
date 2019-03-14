@@ -1,0 +1,13 @@
+
+public class Practice {
+	public static void main(String[] args) {
+				
+		char a='A';
+		char b="B";
+		System.out.print(a);
+        System.out.print(/t);
+		System.out.print(b);
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class Practice {
+	public static void main(String[] args) {
+		int a= 10;
+		int valName2=3;
+//		주석을 달면 이렇게 나와
+		System.out.println(a/valName2);
+		
+		char a='A';
+		char b="B";
+		System.out.print(a);
+        System.out.print(/t);
+		System.out.print(b);
+		
+	}
+
+}

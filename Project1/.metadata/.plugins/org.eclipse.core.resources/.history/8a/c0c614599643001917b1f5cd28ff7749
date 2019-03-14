@@ -1,0 +1,28 @@
+package project2;
+
+public class Helloworld {
+	public static void main(String[] args) {
+		System.out.println("Hello Java");
+
+	}
+
+}
+
+public class VarEx {
+	public static void(String[ args])
+	int i;
+	i = 100;
+	double d;
+	d=10.5555;
+	boolean b;
+	b=true;
+	char c;
+	c='°¡'
+			
+	System.out.println(i);
+	System.out.println(d);
+	System.out.println(b);
+	System.out.println(c);
+	
+		
+}

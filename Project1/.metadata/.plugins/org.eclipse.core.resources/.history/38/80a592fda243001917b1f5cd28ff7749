@@ -1,0 +1,9 @@
+
+public class Scanner {
+	public static void main(String[] args) {
+		
+		System.out.println("화면에 숫자를 입력해 주세요!");
+		
+	}
+	
+}

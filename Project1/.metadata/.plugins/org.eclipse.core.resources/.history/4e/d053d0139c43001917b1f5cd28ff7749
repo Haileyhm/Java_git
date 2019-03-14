@@ -1,0 +1,15 @@
+
+public class Javatest1 {
+	public static void main(String[] args) {
+		char a = 'A';
+		char b = 'B';
+		char d= 'D';
+		char c = '\r';
+		
+		System.out.print(a);
+		System.out.print(d);
+		System.out.print(b);
+		System.out.print(c);
+		System.out.print('\"');
+	}
+}
