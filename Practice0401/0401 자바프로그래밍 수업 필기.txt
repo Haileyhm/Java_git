@@ -1,0 +1,84 @@
+*void main 에서 다른 클래스 불러오기 
+*다른 클래스의 객체 불러서 배열값 입력해서 넣기 
+
+*내 안에 있는 클래스로 옮겼을 때는 
+  클래스이름.객체명 = ㄴ이ㅓㄹ밍ㄴ 
+  -> this.객체명
+
+*static 블록 은 해당 클래스 안에서만 사용하는 블록
+설계도 내에서 공통으로 쓰는 것
+다른 클래스에서 접근을 할 때는 클래스 이름.static 블록이름 을 써줘
+
+	public class Apple {
+	static int korTotal = 0;
+	static int engTotal = 0; }
+
+
+public class Banana {
+Apple apple = new Apple();
+Apple.korTotal = ###
+Apple.engTotal = ###
+} 
+
+=====> 어디에 쓰는 지는 나중에 설명한대   
+	
+	  int apple = 0; 이랑 
+   static int apple = 0; 이랑 
+	선언하는 것은 같은데 
+   static 은 특정 상황에서는 사용하는 것이 편한 경우가 있음
+
+
+
+*생성자!!!! 매소드 만들듯이 하면 되는데 단지 이름이 클래스 이름과 동일
+특정값만 넣고 싶다면 => 매소드 인자값만 다르게 해서 만들어  
+
+
+
+
+Student s1 = new Student();
+
+s1.name = "홍길동";
+s1.korScore = 100;
+
+
+Student[] sArray = new Student[10];
+for (int i = 0; i < sArray.length; i++){
+sArray[i] = new Student();
+sytem.out.println("" + (i+1) +"번째 학생 데이터 입력")
+
+sArray[i].name = scan.nextLine();
+
+
+====== 잉? 그러면   int[]arr = new int[갯수]    뭐가 똑같은 거야???????
+------> 객체 불러오는 거랑, 배열 만드는 거 차이                   
+
+
+ 
+		    Student s1;
+                    Student[] sArray = new Student[10];
+
+		    s1 = new Student();
+                    sArray[0] = new Student();
+
+	            s1.korScore = 10;
+                    sArray[0].korScore = 10;
+
+
+
+
+
+* Integer.parseInt(int로 바꿀 string의 이름);
+  "100" -> 100 
+
+System.out.println((i+1) + "번째 학생의 국어점수: ");
+		String korString = s.nextLine();
+		gArray[i].korGrade= Integer.parseInt(korString); 
+
+
+*정규표현식 공부는 '생활코딩' 이라는 사이트에서 알아볼 것
+
+
+*length 는 총 갯수 
+ 인덱스는 입력한 숫자보다 하나 뺀 걸로 생각해 
+
+*
